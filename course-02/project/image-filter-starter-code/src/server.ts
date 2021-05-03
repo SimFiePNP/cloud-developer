@@ -27,7 +27,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
         if (!error) {
           res.status(200);
         }
-        res.status(500);
+        res.status(400);
       })
     }
   })
